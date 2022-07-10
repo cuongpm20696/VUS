@@ -1,0 +1,159 @@
+/* GLOBAL */
+*{
+    box-sizing: border-box;
+}
+
+html, body{
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+h2{
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 16px;
+}
+
+.line{
+    background-image: url(../img/line.png);
+    height: 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 25px;
+}
+.clear{
+    clear: both;
+}
+/* HEADER */
+.header_logoImg{
+    float: left;
+}
+.header_slogan{
+    float: right;
+    margin-right: 120px;
+}
+.header_navbar ul{
+    list-style: none;
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+    text-align: center;
+    padding: 15px 0;
+
+}
+.header_navbar ul a{
+    text-decoration: none;
+    font-weight: bold;
+    /* vw, vh */
+    /* 1vw = 1% màn hình */
+    font-size: 1.1vw;
+    /* 1 em = 1vw */
+    padding: 0 0.3em;
+    color: #636363;
+    text-transform: uppercase;
+    
+}
+.header_navbar ul li{
+    display: inline;
+    
+}
+.header_navbar ul li:hover{
+    border-bottom: 2px solid #b31c25;
+}
+.header_navbar ul .active{
+    border-bottom: 2px solid #b31c25;
+}
+/* CAROUSEL */
+.carousel{
+    background-image: url(../img/slider_1.png);
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+}
+/* INTRO */
+.intro p{
+    text-align: center;
+    color: #636363;
+    line-height: 25px;
+    padding: 0 25px;
+}
+/* PROGRAM */
+.program_item{
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+}
+.program_item img{
+    width: 100%;
+}
+.program_item h3{
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #b31c25;
+    margin: 10px 0 5px;
+}
+.program_item p{
+    font-size: 14px;
+    margin: 0;
+    color: #636363;
+}
+
+/* NEWS */
+.new{
+    margin-bottom: 20px;
+}
+.new_left, .new_right{
+    float: left;
+    width: 50%;
+    padding: 0 5px;
+}
+.new_text{
+    position: relative;
+}
+.new_text img{
+    width: 100%;
+    display: block;
+}
+.new_text p{
+    background-color: rgba(0, 0, 0, 0.555);
+    color: white;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 8px;
+    left: 0;
+    width: 100%;
+    padding: 15px 10px;
+    margin: 0;
+}
+.new_left .new_text p{
+    font-size: 24px;
+}
+.new_text hr{
+    margin: 0;
+    margin-top: 3px;
+    height: 5px;
+    background-color: #b31c25;
+}
+.new_small_item{
+    float: left;
+    width: 50%;
+    padding: 0px 8.6px 10px;
+}
+
+/* FOOTER */
+.footer{
+    background-color: #b31c25;
+    color: white;
+    padding: 20px 50px;
+}
+.footer img{
+    float: left;
+}
+.footer p{
+    float: right;
+    width: 50%;
+    word-spacing: 2px;
+    line-height: 25px;
+    text-align: justify;
+}
